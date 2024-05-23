@@ -4,7 +4,10 @@ function Navbar() {
   return (
   
     <nav>
-        <div className='logo-name'>ALESSANDRO PUCCINI</div>
+        <div className='logo-name'>
+           <h3>ALESSANDRO <br/>
+            PUCCINI</h3>
+        </div>
         <div className='menu-items'>
         <ul>
             <li><a href='#about'>ABOUT</a></li>

@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgb(168, 94, 94);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,15 +25,43 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
+/****HEADER****/
 
-h1 {
+header{
+  width: 100vw;
+  position: fixed;
+  background-color: #ffffff;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name{
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 2.5rem;
+  color: #000;
+}
+.menu-items ul{
+  list-style: none;
+  display: flex;
+  
+}
+.menu-items ul li{
+  margin-right: 20px;
+}
+
+
+
+
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
 button {
   border-radius: 8px;
@@ -54,9 +82,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.logo-name{
-  font-weight: 600;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {

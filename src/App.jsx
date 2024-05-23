@@ -10,6 +10,11 @@ function App() {
     <header id='header'>
      <Navbar />
     </header>
+    <main>
+      <div className='frontPage'>
+        
+      </div>
+    </main>
     </>
   
   )
