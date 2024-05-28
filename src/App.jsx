@@ -23,6 +23,11 @@ function App() {
        
       </div>
     </main>
+    <footer>
+      <div className='footer'>
+        <p>© 2024 AP</p>
+      </div>
+    </footer>
     </>
   
   )
