@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Navbar from './assets/components/Navbar'
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <Router>
     <header id='header'>
      <Navbar />
     </header>
@@ -28,7 +29,8 @@ function App() {
         <p>© 2024 AP</p>
       </div>
     </footer>
-    </>
+    </Router>
+    
   
   )
 }
