@@ -1,10 +1,16 @@
 import React from 'react'
+import Card from './style/Card'
+import Navbar from './Navbar'
 
 function Film() {
   return (
-    <div>
-      
+    <>
+     <Navbar />
+      <div id='filmBackground'>
+      <Card />
     </div>
+    </>
+  
   )
 }
 

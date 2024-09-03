@@ -8,8 +8,9 @@ function Navbar() {
  
     <nav>
         <div className='logo-name'>
-        
+        <Link to='/sitoAle/'>
           <h3>ALESSANDRO <br/>PUCCINI</h3>
+        </Link>
         </div>
         <div className='menu-items'>
         <ul>

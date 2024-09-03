@@ -1,37 +1,29 @@
 import { useState } from 'react'
 import Navbar from './assets/components/Navbar'
-import { BrowserRouter as Router, Routes , Route, Link } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
+import Film from './assets/components/Film'
+import Dev from './assets/components/Dev'
+import Stills from './assets/components/Stills'
+import Home from './assets/components/Home'
+import About from './assets/components/About'
+import Contact from './assets/components/Contact'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <Router>
-    <header id='header'>
-     <Navbar />
-    </header>
-    <main>
-      <div className='frontPage'>
-     
-        <div className='circle1'>  <p className='film'>FILM</p> </div>
-      
-        
-        <div className='circle2'><p className='dev'>DEV</p></div>
-        
-
-        <div className='circle3'> <p className='stills'>STILLS</p></div>
-       
-      </div>
-    </main>
-    <footer>
-      <div className='footer'>
-        <p>© 2024 AP</p>
-      </div>
-    </footer>
-    </Router>
-    
-  
+  <> 
+  <Routes>
+    <Route path='sitoAle/' element={<Home />} />
+    <Route path='/about' element={<About />} />
+    <Route path='/contact' element={<Contact />} />
+    <Route path='/film' element={<Film />} />
+    <Route path='/dev' element={<Dev />} /> 
+    <Route path='/stills' element={<Stills />} />
+  </Routes>
+    </>
   )
 }
 
