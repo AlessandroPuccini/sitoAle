@@ -9,7 +9,7 @@ import Contact from './assets/components/Contact'
 
 
 function App() {
-  return (
+return (
   <> 
   <Routes>
     <Route path='/' element={<Home />} />
