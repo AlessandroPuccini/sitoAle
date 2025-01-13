@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import Navbar from './assets/components/Navbar'
 import { Routes, Route, Link } from 'react-router-dom'
 import Film from './assets/components/Film'
 import Dev from './assets/components/Dev'
@@ -16,7 +14,7 @@ function App() {
   return (
   <> 
   <Routes>
-    <Route path='sitoAle/' element={<Home />} />
+    <Route path='/' element={<Home />} />
     <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact />} />
     <Route path='/film' element={<Film />} />
