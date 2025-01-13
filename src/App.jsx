@@ -9,8 +9,6 @@ import Contact from './assets/components/Contact'
 
 
 function App() {
- 
-
   return (
   <> 
   <Routes>
