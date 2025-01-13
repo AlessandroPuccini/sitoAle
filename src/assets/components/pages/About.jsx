@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Navbar'
 
 function About() {
   return (
     <>
+    <Navbar />
         <section id='about'>
             <div className='about'>
             <h2>About</h2>

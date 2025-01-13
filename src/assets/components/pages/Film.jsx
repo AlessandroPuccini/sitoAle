@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './style/Card'
-import Navbar from './Navbar'
+import Card from '../style/Card'
+import Navbar from '../Navbar'
 
 function Film() {
   return (

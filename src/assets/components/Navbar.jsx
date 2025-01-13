@@ -7,14 +7,14 @@ function Navbar() {
  
     <nav>
         <div className='logo-name'>
-        <Link to='/sitoAle/'>
+        <Link to='/'>
           <h3>ALESSANDRO <br/>PUCCINI</h3>
         </Link>
         </div>
         <div className='menu-items'>
         <ul>
-            <li><Link to='/sitoAle/about'>ABOUT</Link></li>
-            <li><a href='#contact'>CONTACT</a></li>
+            <li><Link to='/about'>ABOUT</Link></li>
+            <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
         </div>
     </nav>

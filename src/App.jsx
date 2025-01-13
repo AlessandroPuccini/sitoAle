@@ -1,10 +1,10 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import Film from './assets/components/Film'
-import Dev from './assets/components/Dev'
-import Stills from './assets/components/Stills'
+import Film from './assets/components/pages/Film'
+import Dev from './assets/components/pages/Dev'
+import Stills from './assets/components/pages/Stills'
 import Home from './assets/components/Home'
-import About from './assets/components/About'
-import Contact from './assets/components/Contact'
+import About from './assets/components/pages/About'
+import Contact from './assets/components/pages/Contact'
 
 
 
