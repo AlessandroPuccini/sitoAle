@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #535bf2;
+  color: #ba0000;
 }
 
 html, body {
@@ -218,15 +218,4 @@ button:focus-visible {
   font-size: 0.8rem;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+/***********CARD**********/

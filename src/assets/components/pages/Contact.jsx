@@ -1,10 +1,12 @@
 import React from 'react'
+import Card from '../style/Card'
 
 function Contact() {
   return (
-    <div>
-      <h3>Contact</h3>
-    </div>
+    <>
+      <h2>Contact</h2>
+      <Card />
+    </>
   )
 }
 

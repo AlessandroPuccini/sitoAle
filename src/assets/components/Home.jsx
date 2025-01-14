@@ -13,11 +13,12 @@ function Home() {
         <Link to='/film'>
         <div className='circle1'>  <p className='film'>FILM</p> </div>
         </Link>
-        
+        <Link to='/dev'>
         <div className='circle2'><p className='dev'>DEV</p></div>
-        
+        </Link>
+        <Link to='/stills'>
         <div className='circle3'> <p className='stills'>STILLS</p></div>
-        
+        </Link>
       </div>
     
     </main>
