@@ -10,13 +10,13 @@ function Home() {
     </header>
     <main>
       <div className='frontPage'>
-        <Link to='/film'>
+        <Link to='alessandropuccini/film'>
         <div className='circle1'>  <p className='film'>FILM</p> </div>
         </Link>
-        <Link to='/dev'>
+        <Link to='alessandropuccini/dev'>
         <div className='circle2'><p className='dev'>DEV</p></div>
         </Link>
-        <Link to='/stills'>
+        <Link to='alessandropuccini/stills'>
         <div className='circle3'> <p className='stills'>STILLS</p></div>
         </Link>
       </div>
