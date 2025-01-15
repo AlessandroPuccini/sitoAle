@@ -12,12 +12,12 @@ function App() {
 return (
   <> 
   <Routes>
-    <Route path='/' element={<Home />} />
-    <Route path='/about' element={<About />} />
-    <Route path='/contact' element={<Contact />} />
-    <Route path='/film' element={<Film />} />
-    <Route path='/dev' element={<Dev />} /> 
-    <Route path='/stills' element={<Stills />} />
+    <Route path='alessandropuccini/' element={<Home />} />
+    <Route path='alessandropuccini/about' element={<About />} />
+    <Route path='alessandropuccini/contact' element={<Contact />} />
+    <Route path='alessandropuccini/film' element={<Film />} />
+    <Route path='alessandropuccini/dev' element={<Dev />} /> 
+    <Route path='alessandropuccini/stills' element={<Stills />} />
   </Routes>
     </>
   )
