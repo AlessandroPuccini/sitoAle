@@ -45,14 +45,20 @@ header{
 }
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .logo-name{
   font-weight: 600;
   margin-left: 20px;
   font-size: 2rem;
   color: #000;
+}
+.logo-name-capture{
+  font-size: 1.5rem;
+  font-weight: 200;
+  
 }
 .menu-items ul{
   list-style: none;
@@ -80,6 +86,9 @@ main{
   width: 100vw;
   /* background-color: #d04a4a; */
   background-color: #f9f9f9;
+}
+.frontPage p{
+  font-size: 1.2em;
 }
 .film{
   font-size: 1rem;
@@ -219,3 +228,18 @@ button:focus-visible {
 }
 
 /***********CARD**********/
+
+
+
+/*********MOBILE**********/
+@media (max-width: 768px) {
+  .logo-name, .logo-name-capture{ 
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .calzolaio, .intro{
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+  }
+}

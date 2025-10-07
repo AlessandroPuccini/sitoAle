@@ -8,14 +8,16 @@ function Navbar() {
     <nav>
         <div className='logo-name'>
         <Link to='/'>
-          <h3>ALESSANDRO <br/>PUCCINI</h3>
-        </Link>
+          <h3>ALESSANDRO PUCCINI</h3>
+        </Link></div>
+        <div className='logo-name-capture'>
+          <p>Filmmaker. Fotografo. Web Developer. </p>
         </div>
         <div className='menu-items'>
-        <ul>
+        {/* <ul>
             <li><Link to='/about'>ABOUT</Link></li>
             <li><Link to='/contact'>CONTACT</Link></li>
-        </ul>
+        </ul> */}
         </div>
     </nav>
   
