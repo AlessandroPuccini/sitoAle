@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -32,11 +33,7 @@ function Home() {
      </div>
     
     </main>
-    <footer>
-      <div className='footer'>
-        <p>© 2025 AP</p>
-      </div>
-    </footer>
+    <Footer />
     </>
   )
 }
